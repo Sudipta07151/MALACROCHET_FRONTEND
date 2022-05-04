@@ -1,0 +1,16 @@
+.wrapper {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  opacity: 0.8;
+  font-weight: 900;
+}
+.child {
+  padding: 0.2rem;
+  margin: 0.2rem;
+}

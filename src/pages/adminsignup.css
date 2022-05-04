@@ -1,0 +1,6 @@
+.admin_form_wrapper {
+  background-color: rgba(125, 19, 79, 0.236);
+  margin: 2rem;
+  padding: 2rem;
+  border: 0.1rem rgb(251, 251, 251) solid;
+}

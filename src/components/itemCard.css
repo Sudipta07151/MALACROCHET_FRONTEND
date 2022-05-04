@@ -1,0 +1,37 @@
+.card_component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.2rem rgba(23, 1, 1, 0.647) solid;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  position: relative;
+}
+
+.card_component img {
+  padding: 1rem;
+  background-color: white;
+  width: 300px;
+  height: 320px;
+}
+
+@media screen and (max-width: 600px) {
+  .card_component img {
+    margin: 0.2rem;
+    width: 150px;
+    height: 200px;
+    padding: 3px;
+  }
+}
+
+.favicon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  background-color: rgb(238, 52, 70);
+  border-radius: 50%;
+  padding: 2px;
+}

@@ -1,0 +1,14 @@
+input {
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.558);
+}
+input::placeholder {
+  color: "black";
+  font-weight: bold;
+}
+
+.input_wrapper {
+  padding: 2rem;
+  background: rgba(187, 51, 153, 0.447);
+  margin: 2rem;
+}

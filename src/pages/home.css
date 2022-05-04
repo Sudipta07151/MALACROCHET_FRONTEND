@@ -1,0 +1,24 @@
+img {
+  max-height: 400px;
+  max-width: 400px;
+}
+/* @media screen and (min-width: 480px) {
+  .renderWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+} */
+
+.renderWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #5e5e5e;
+}
+
